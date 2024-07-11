@@ -33,12 +33,12 @@ const Chat = () => {
                 <div className="message">
                     <img src="/avatar.png" alt=""/>
                     <div className="texts">
-                        <p>Hello</p>
+                        <p>This is a test message</p>
                         <span>1 min ago</span>
                     </div>
                 </div>
-                <div className="message">
-                    <img src="/avatar.png" alt=""/>
+                <div className="message own">
+                    {/*<img src="/avatar.png" alt=""/>*/}
                     <div className="texts">
                         <p>Hello</p>
                         <span>1 min ago</span>
@@ -51,6 +51,15 @@ const Chat = () => {
                         <span>1 min ago</span>
                     </div>
                 </div>
+                <div className="message own">
+                    {/*<img src="/avatar.png" alt=""/>*/}
+                    <div className="texts">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/FIA_F1_Austria_2018_Nr._5_Vettel.jpg" alt="Logo"/>
+                        <p>Hello</p>
+                        <span>1 min ago</span>
+                    </div>
+                </div>
+
             </div>
             <div className="bottom">
                 <div className="icons">
